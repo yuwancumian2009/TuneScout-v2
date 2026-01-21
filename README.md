@@ -1,11 +1,10 @@
-# 🎵 TuneScout Pro
+# 🎵 TuneScout
 
-**TuneScout Pro** 是一个强大的、一体化的本地音乐库管理与自动化工具。它旨在成为 Navidrome、Plex 或 Emby 等流媒体服务器的最佳伴侣。
+**TuneScout** 是一个强大的、一体化的本地音乐库管理与自动化工具。它旨在成为 Navidrome服务器的最佳伴侣。
 
 通过现代化的 Web 界面，您可以轻松实现音乐下载、元数据刮削、自动整理、歌单同步以及后台任务管理，让您的音乐库始终保持井井有条。
 
-![Dashboard Screenshot](image_9e37ea.png)
-*(请将您项目中的实际截图重命名并放入仓库，替换此处的链接)*
+![Dashboard Screenshot](image/歌单榜单同步.png)
 
 ## ✨ 核心功能
 
@@ -36,11 +35,11 @@
 
 ### 歌曲管理
 提供强大的筛选器（时长、格式、缺封面/歌词检测）和批量操作功能。
-![Song Manager](image_9e37ea.png)
+![Song Manager](image/歌曲管理.png)
 
 ### 任务管理
 清晰的任务队列与实时进度追踪。
-![Task Manager](image_9e3808.png)
+![Task Manager](image/任务管理.png)
 
 ## 🚀 快速开始 (Docker Compose)
 
