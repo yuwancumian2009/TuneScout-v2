@@ -121,11 +121,11 @@ npm run dev
   <table style="border: none;">
     <tr>
       <td align="center" style="border: none;">
-        <img src="YOUR_WECHAT_QR_CODE.jpg" width="200" alt="WeChat Pay" /><br>
+        <img src="image/wechat.png" width="200" alt="WeChat Pay" /><br>
         <strong>微信支付</strong>
       </td>
       <td width="50" style="border: none;"></td> <td align="center" style="border: none;">
-        <img src="YOUR_ALIPAY_QR_CODE.jpg" width="200" alt="AliPay" /><br>
+        <img src="image/alipay.png" width="200" alt="AliPay" /><br>
         <strong>支付宝</strong>
       </td>
     </tr>
