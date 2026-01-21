@@ -137,6 +137,6 @@ npm run dev
 ---
 ## 📈 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=your-username/your-repo-name&type=Date)](https://star-history.com/#your-username/your-repo-name&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=yuwancumian2009/TuneScout-v2&type=Date)](https://star-history.com/#yuwancumian2009/TuneScout-v2&Date)
 
 **TuneScout Pro** © 2024 Created by You. Released under the [MIT License](LICENSE).
