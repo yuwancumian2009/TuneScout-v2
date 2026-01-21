@@ -51,7 +51,7 @@
 version: '3'
 services:
   tunescout:
-    image: your-repo/tunescout-pro:latest
+    image: yuwancumian2009/tunescout-v2:latest
     container_name: tunescout
     environment:
       - TZ=Asia/Shanghai            # 设置时区，确保定时任务准确
