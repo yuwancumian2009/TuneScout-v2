@@ -1,4 +1,5 @@
 # 🎵 TuneScout
+[![更新日志](https://img.shields.io/badge/Changelog-查看更新记录-blue?style=flat-square)](https://github.com/yuwancumian2009/TuneScout-v2/blob/main/更新记录.txt)
 
 **TuneScout** 是一个强大的、一体化的本地音乐库管理与自动化工具。它旨在成为 Navidrome服务器的最佳伴侣。
 
