@@ -61,13 +61,12 @@ services:
       - PUID=1000                   # (可选) 设置运行用户ID
       - PGID=1000                   # (可选) 设置运行组ID
     volumes:
-      - ./config:/app/config        # 配置文件存储路径 （需构建容器前手动在该位置创建同名空文件）
-      - ./library_cache.db:/app/library_cache.db  # 数据库文件持久化  （需构建容器前手动在该位置创建同名空文件）
-      - /path/to/your/music:/music  # 本地音乐库目录
-      - /path/to/download:/download # 临时下载目录
-      - /path/to/playlists:/playlists # 歌单文件输出目录  （navidrome相应挂载- /path/to/playlists:/music/Playlists）
-      # 如果需要自动重启 Navidrome，请挂载 docker socket (可选)
-      # - /var/run/docker.sock:/var/run/docker.sock 
+      - ./config.json:/app/config.json                 # 配置文件存储路径 （需构建容器前手动在该位置创建同名空文件）
+      - ./library_cache.db:/app/library_cache.db       # 数据库文件持久化  （需构建容器前手动在该位置创建同名空文件）
+      - /path/to/your/music:/music                     # 本地音乐库目录
+      - /path/to/download:/download                    # 临时下载目录
+      - /path/to/playlists:/playlists                  # 歌单文件输出目录  （navidrome相应挂载- /path/to/playlists:/music/Playlists）
+      # - /var/run/docker.sock:/var/run/docker.sock    # 如果需要自动重启 Navidrome，请挂载 docker socket (可选)
     ports:
       - "8503:8503"
     restart: unless-stopped
